@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* START NAVBAR */
+.menu:hover {
+    background-color: rgb(66, 66, 66);
+    transition: 500ms; border: none; border-radius: 10px;
+}
+ 
+  nav .main_container .menu {
+    position: relative;
+    height: calc(80% - 20px);
+    left: 100px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .main_container {
+    right: -70px;
+    top: 50px;
+    display: flex;
+  }
+  nav {
+    position: relative;
+    top: 0vw;
+    left: 0px;
+    height: 100px;
+    background-color: #24252a;
+    z-index: 0;
+    color: white;
+  }
+  
+  nav .main_container {
+  width: 40%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+  .menu
+  {font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  top: 10px;
+}
+
+.header{
+    display:flex; 
+  justify-content: center; /* center everything */
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 260px; /* prevent crawling on the logo */
+}
+
+
+.logo{
+    position: absolute; /* remove the logo from the flow */
+    height: 100px;
+    width: 100px;
+    z-index: 99999 !important;
+    padding-left: 20px;
+}
+/* END NAVBAR */
+.judulartikel1
+{   position: absolute;
+    width: 1630px;
+    height: 164px;
+    left: calc(50% - 1631px/2 + 0.5px);
+    top: 337px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 59px;
+    color: #000000;}
+.subartikel1
+{
+    position: absolute;
+    width: 1440px;
+    height: 58px;
+    left: calc(50% - 1173px/2 - 228.5px);
+    top: 470px;
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 29px;
+    color: #000000;
+}
+.tanggalartikel
+{position: absolute;
+    width: 99px;
+    height: 20px;
+    left: calc(50% - 99px/2 - 766.5px);
+    top: 546px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 20px;
+    color: #000000;
+    
+    
+    color: #000000;}
+.imgartikel1
+{
+    position: absolute;
+width: 1630px;
+height: 700px;
+left: 144px;
+top: 669px;
+
+background: #0E0404;
+}
+
+.judulkotakberita
+{
+    position: absolute;
+width: 214px;
+height: 32px;
+left: calc(50% - 200px/2 - 709px);
+top: 1480px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+
+.kategorikotakberita1
+{
+    
+position: absolute;
+width: 142px;
+height: 32px;
+left: calc(50% - 125px/2 - 745px);
+top: 1840px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+
+color: #000000;
+}
+.kategorikotakberita2
+{
+    position: absolute;
+width: 142px;
+height: 32px;
+left: calc(50% - 125px/2 - 412px);
+top: 1840px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+
+color: #000000;
+}
+.kategorikotakberita3
+{
+    position: absolute;
+width: 143px;
+height: 32px;
+left: calc(50% - 125px/2 - 78.5px);
+top: 1840px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.kategorikotakberita4
+{
+    position: absolute;
+width: 142px;
+height: 32px;
+left: calc(50% - 125px/2 + 255px);
+top: 1840px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.kategorikotakberita5
+{
+    position: absolute;
+width: 142px;
+height: 32px;
+left: calc(50% - 125px/2 + 588px);
+top: 1840px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;    
+line-height: 24px;
+
+color: #000000;
+}
+
+.judulartikelkotak1
+{
+    position: absolute;
+width: 320px;
+height: 32px;
+left: calc(50% - 80px/2 - 769px);
+top: 1872px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.judulartikelkotak2
+{
+    position: absolute;
+width: 320px;
+height: 32px;
+left: calc(50% - 80px/2 - 436px);
+top: 1872px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #000000;
+}
+.judulartikelkotak3
+{
+    position: absolute;
+width: 320px;
+height: 32px;
+left: calc(50% - 80px/2 - 103px);
+top: 1872px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.judulartikelkotak4
+{
+    position: absolute;
+width: 320px;
+height: 32px;
+left: calc(50% - 80px/2 + 231px);
+top: 1872px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #000000;
+}
+.judulartikelkotak5
+{
+    position: absolute;
+width: 320px;
+height: 32px;
+left: calc(50% - 80px/2 + 564px);
+top: 1872px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.kotakberita1
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+left: 144px;
+top: 1528px;
+
+
+}
+.kotakberita2
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+left: 477px;
+top: 1528px;
+
+
+}
+.kotakberita3
+{position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 810px;
+    top: 1528px;
+    
+}
+.kotakberita4
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+left: 1144px;
+top: 1528px;
+
+
+}
+.kotakberita5
+{
+    position: absolute;
+    
+width: 300px;
+height: 300px;
+left: 1477px;
+top: 1528px;
+
+
+}
+
+.imgkonten1
+{
+    position: absolute;
+    width: 1630px;
+    height: 620px;
+    left: calc(50% - 1631px/2 + 0.5px);
+    top: 2800px;
+
+background: #160C0C
+}
+
+.paragraf1
+{position: absolute;
+    width: 1632px;
+    height: 597px;
+    left: calc(50% - 1632px/2);
+    top: 2011px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 55px;}
+.paragraf2
+{
+    position: absolute;
+    width: 1632px;
+    height: 906px;
+    left: calc(50% - 1632px/2);
+    top: 2365px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 55px;
+    color: #000000;
+
+
+
+color: #000000;
+}
+.paragraf3
+{
+    position: absolute;
+    width: 1632px;
+    height: 300px;
+    left: calc(50% - 1632px/2);
+    top: 3490px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 55px;
+    color: #000000;
+}
+a{
+    cursor: pointer;
+}

@@ -1,0 +1,106 @@
+*{
+    font-family: Montserrat;
+}
+
+.headline{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.news_img{
+    max-width: 100%;
+    height: 735px;
+}
+
+.body_text{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.box_other_news{
+    max-width: 50%;
+    max-height: 231px;
+    border: 1px solid #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-others{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* START NAVBAR */
+.menu:hover {
+    background-color: rgb(66, 66, 66);
+    transition: 500ms; border: none; border-radius: 10px;
+}
+ 
+  nav .main_container .menu {
+    position: relative;
+    height: calc(80% - 20px);
+    left: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-top: 15px;
+    float: left;
+    cursor: pointer;
+  }
+  
+  .main_container {
+    right: -70px;
+    top: 50px;
+    display: flex;
+  }
+  nav {
+    position: relative;
+    top: 0vw;
+    left: 0px;
+    height: 100px;
+    background-color: #24252a;
+    z-index: 0;
+    color: white;
+  }
+  
+  nav .main_container {
+  width: 40%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+  .menu
+  {font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  top: 10px;
+}
+
+.header{
+    display:flex; 
+  justify-content: center; /* center everything */
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 260px; /* prevent crawling on the logo */
+}
+
+
+.logo{
+    position: absolute; /* remove the logo from the flow */
+    height: 100px;
+    width: 100px;
+    z-index: 99999 !important;
+    padding-left: 20px;
+}
+/* END NAVBAR */
